@@ -1,0 +1,13 @@
+{
+  "name": "code-fighter",
+  "private": true,
+  "description": "Personal gamified study app. Plain browser JavaScript, no build step needed to run (open index.html).",
+  "scripts": {
+    "test": "node tests/run.js",
+    "test:e2e": "python3 tests/e2e/run_all.py",
+    "build": "node tools/build.js",
+    "build:min": "node tools/build.js --min",
+    "gen:lessons": "node tools/build-builtin-lessons.js",
+    "gen:predict": "node tools/make-predict.js"
+  }
+}
